@@ -174,7 +174,11 @@ OPTIONS = OrderedDict([
     "remove_title_and_ending_videos",
     "Removes the two prerendered videos that play if you wait on the title screen and after you beat the game. (Decreases randomized ISO's filesize by about 600MB.)\nIf you keep these videos in, they won't reflect your custom player model or colors.",
   ),
-  
+  (
+    "randomize_settings",
+    "Click this button to enable settings at random, including progression item locations, starting items, and randomized entrances. Weighting can be adjusted in the file randomized_settings_weight.txt.",
+  ),
+ 
   
   (
     "custom_player_model",
