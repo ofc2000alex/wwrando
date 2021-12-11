@@ -176,7 +176,7 @@ OPTIONS = OrderedDict([
   ),
   (
     "randomize_settings",
-    "Click this button to enable settings at random, including progression item locations, starting items, and randomized entrances. Weighting can be adjusted in the file randomized_settings_weight.txt.",
+    "If enabled, settings will be randomized before generating the permalink (the settings will not be updated on the UI). Every option available except character model will be randomized including progression item locations, starting items, and randomized entrances. Weighting can be adjusted in the file randomized_settings_weight.txt.",
   ),
  
   
